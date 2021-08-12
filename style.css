@@ -562,13 +562,18 @@ footer{
     color: green;
     transform: rotate(360deg);
 }
+footer span{
+    color: black;
+}
 footer span a{
     color: crimson;
     text-decoration: none;
 }
+
 .fa-laptop-code{
-      color: black;
+   color: black;
 } 
+
 /* responsive media query start */
 @media (max-width: 1104px) {
     .about .about-content .left img{
