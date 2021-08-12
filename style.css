@@ -549,19 +549,25 @@ footer{
     color: #fff;
     text-align: center;
 }
-.social-icons, a, i{
-    color: white;
-    font-size: 25px;
+
+.icons .fab{
+    color: red;
+    margin: 20px 10px;
+    cursor: pointer;
+    font-size: 30px;
+    transition: 0.5s;
+}
+.icons .fab:hover{
+    color: green;
+    transform: rotate(360deg);
 }
 footer span a{
     color: crimson;
     text-decoration: none;
 }
-footer span a:hover{
-    text-decoration: underline;
-}
-
-
+.fa-laptop-code{
+    color:#f44336;
+} 
 /* responsive media query start */
 @media (max-width: 1104px) {
     .about .about-content .left img{
