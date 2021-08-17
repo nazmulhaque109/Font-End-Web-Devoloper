@@ -114,13 +114,14 @@ section .title::after{
 .navbar .menu li a{
     display: block;
     color: #fff;
-    font-size: 18px;
-    font-weight: 500;
+    font-size: 16px;
+    font-family: Tahoma;
+    font-weight: 600;
     margin-left: 25px;
     transition: color 0.3s ease;
 }
 .navbar .menu li a:hover{
-    color: crimson;
+    color: rgb(255, 0, 51);
 }
 .navbar.sticky .menu li a:hover{
     color: #fff;
@@ -371,10 +372,10 @@ section .title::after{
 .skills-content .right .js::before{
     width: 60%;
 }
-.skills-content .right .php::before{
+.skills-content .right .bs::before{
     width: 80%;
 }
-.skills-content .right .mysql::before{
+.skills-content .right .wordpress::before{
     width: 95%;
 }
 .skills-content .right .shopify::before{
